@@ -65,6 +65,10 @@ label{
     background-color: white;
     padding: 1rem;
 }
+input[type="checkbox"]:checked + label {
+    background-color: transparent;
+    border: 2px solid rgb(204, 107, 96);
+  }
 button{
     margin: 40px 0px;
     padding:1rem 2rem;
