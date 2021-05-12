@@ -62,12 +62,12 @@ input[type="checkbox"]{
     display: none;
 }
 label{
-    background-color: white;
     padding: 1rem;
-}
-input[type="checkbox"]:checked + label {
     background-color: transparent;
     border: 2px solid rgb(204, 107, 96);
+}
+input[type="checkbox"]:checked + label {
+    background-color: white;
   }
 button{
     margin: 40px 0px;
